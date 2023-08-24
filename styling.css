@@ -1,0 +1,301 @@
+/* For header margin */
+.header
+{
+    
+    margin-top: 2cm;
+    margin-left: 2cm;
+}
+
+/* for applying background color to whole body */
+.about_body{
+    background-color:rgb(195, 192, 189);
+    
+}
+
+/* This for the "KNOW MORE" button */
+.about_button{
+    
+    color: rgb(38, 67, 67);
+    background-color:rgb(195, 192, 189);
+    padding: 5px 3px;
+    font-size: 15px;
+    border-radius: 2px;
+    border-color:rgb(58, 81, 81);
+    cursor: pointer;
+    height: 30px;
+    width: 3cm;
+}
+
+/* For main div in which I write "About Me" and add image */
+.main
+{
+
+    background-color: rgb(38, 67, 67);
+    color: azure;
+    width: 100vw;
+    /* margin-top: 3cm; */
+    /* clip-path: ellipse(2786px 478px at -142px -33px) */
+     /* clip-path: ellipse(3161px 492px at -9px -37px); */
+    
+    /* margin-bottom: 1cm; */
+    /* margin-bottom: 3%; */
+    text-align: center;
+    margin-bottom: 2cm;
+}
+
+/* Button resume that I've created in main sections */
+.button_resume
+{
+    border-color: white;
+    color: beige ;
+    background-color: rgb(38, 67, 67);
+     font-size: 18;
+     border-radius: 2px;
+     width: 3cm;
+     height: 1cm;
+      cursor: pointer;
+}
+
+/* The image that I've upload in about me section */
+.about_image{
+    /* padding: 3%; */
+    width: 350px;
+    height: 380px;
+    margin-left:7rem;
+    border: 2px ;
+    border-radius: 2rem;
+    margin-bottom: 2cm;
+    flex: 50%;
+    /* margin-top: -0.5cm; */
+    
+}
+
+/* for text I wrote in all sections */
+.text
+{
+   
+    font-size: 16px;
+    margin-left: 4cm;
+    margin-right: 4cm;
+    text-align: justify;
+    flex: 50%;
+    margin-bottom: 8rem;
+    
+}
+
+/* flexbox property that I've used in project section */
+.flexBox
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.flexBox_project{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row  ; */
+    
+    justify-content: center;
+    align-items: center;
+}
+
+/* heading that I've created of project */
+.about_project
+{
+    font-size: 35px;
+    text-align: center;
+    margin-top:2px ;
+    margin-bottom: 2cm;
+ 
+}
+
+/* Image that I've upload after project section */
+.project_image{
+    padding: 3%;
+    width: 360px;
+    height: 400px;
+    margin-left:3cm;
+    border: 2px ;
+    border-radius: 2cm;
+    margin-bottom: 2cm;
+    margin-right: 3cm;
+    flex: 50%;
+}
+
+/* Buttons that I've created for project details */
+.live_button
+{
+    border-color: rgb(38, 67, 67);
+    color: rgb(38, 67, 67) ;
+    background-color: rgb(195, 192, 189);
+    font-size: 18;
+    border-radius: 2px;
+    width: 3cm;
+    height: 1cm;
+    cursor: pointer;
+    margin-right: 15px;
+    
+
+}
+
+
+/* Heading that I gave for contact */
+.about_contact
+{
+    background-color: rgb(38, 67, 67);
+    color: white;
+    /* margin-top: -1cm; */
+    margin-bottom: -3cm;
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+
+
+    
+}
+
+/* Text that I've added in contact details */
+.contact_text
+{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+/* Styling for footer */
+.about_footer{
+    background-color: rgb(22, 21, 21);
+    color: white;
+    margin-top: 2cm;
+    background-color: rgb(22, 21, 21);
+
+    text-align: center;
+    
+ 
+}
+
+
+/* Line that I draw in footer sections */
+.about_hr
+{
+    width: 100vw; 
+    text-align: center;
+    margin-bottom: 10px;
+    color: lightslategray;
+}
+
+/* text that I've written in footer */
+.about_template{
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.about_footerEnd{
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    width: 100vw;
+    border: 3px;
+    border-radius: 1rem ;
+    
+
+}
+
+@media (max-width:750px){
+    .flexBox,
+    .flexBox_project
+    {
+        flex-direction: column;
+    }
+    
+    .project_image,
+    .about_image
+
+    {
+        margin-right: 6rem;
+        width: 20rem;
+        
+    }
+    
+    .about_footer,
+    .about_template,
+    .about_footerEnd
+    {
+        width: 100%;
+        /* margin: 3rem 1rem; */
+    }
+    
+}
+
+@media (max-width:400px) {
+    .about_image,
+    .project_image,
+    .text
+    {
+        flex:100%;
+        width:80vw
+    }
+    
+}
+@media (max-width:700px) {
+    .text{
+        text-align: center;
+        width: 80vw;
+        text-align: justify;
+    }
+}
+/* @media (min-width:280px){
+.main,
+.header
+{
+    width: 120vw;
+}
+.about_image,
+.project_image
+{
+    width:100vw;
+}
+} */
+
+/* Default styles for all screen sizes
+body {
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  /* Media query for screens up to 768px wide */
+  /* @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+      margin: 10px;
+    }
+  }
+   */
+  /* Media query for screens up to 480px wide */
+  /* @media (min-width: 480px) {
+    body {
+      font-size: 12px;
+      margin: 5px;
+    }
+  } */
+
+  /* @media  (max-width:768px){
+    .about_image,
+    .project_image
+    {
+        max-width: 100%;
+    }    
+    
+  }
+  @media (max-width:339px) {
+    .text
+    .main
+    {
+        margin: auto;
+    }
+    
+  } */
+   
+
