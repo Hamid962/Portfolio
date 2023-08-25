@@ -10,6 +10,8 @@
 .about_body{
     background-color:rgb(195, 192, 189);
     
+    width: 90vw;
+    
 }
 
 /* This for the "KNOW MORE" button */
@@ -150,7 +152,7 @@
     /* margin-top: -1cm; */
     margin-bottom: -3cm;
     clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
-
+    width: 100vw;
 
     
 }
@@ -171,7 +173,7 @@
     background-color: rgb(22, 21, 21);
 
     text-align: center;
-    
+    width:100vw;
  
 }
 
@@ -187,6 +189,7 @@
 
 /* text that I've written in footer */
 .about_template{
+    width:100vw;
     font-size: medium;
     font-family:'Courier New', Courier, monospace;
     
@@ -223,7 +226,7 @@
     .about_template,
     .about_footerEnd
     {
-        width: 100%;
+        width: 100vw;
         /* margin: 3rem 1rem; */
     }
     
@@ -235,14 +238,15 @@
     .text
     {
         flex:100%;
-        width:80vw
+        width:82vw;
+        text-align: center;
     }
     
 }
 @media (max-width:700px) {
     .text{
         text-align: center;
-        width: 80vw;
+        width: 82vw;
         text-align: justify;
     }
 }

@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/72423e790d.js" crossorigin="anonymous"></script>
 
 </head >
-<!-- header that I wrute name and add button -->
+<!-- header that I write name and add button -->
 <body class="about_body">
     <div class="header">
         <h1>Hi, my name is <b style="color:rgb(9, 118, 81);"> Hamid Rafiq</b></h1> 
@@ -24,7 +24,7 @@
 
 <!-- section where I add pic and write about me and create resume button -->
     <div class="main">
-        <h1 style="margin-bottom: 2cm;  ">ABOUT ME</h1>
+        <h2 style="margin-bottom: 2cm;  ">ABOUT ME</h2>
         <div class="flexBox">
             <div class="image">
                 <img class="about_image"   src="portfolio.jpg" alt="My picture">         
@@ -42,20 +42,21 @@
 
     <!-- Creating another Div for Project -->
     <div class="about_project">
-        <p style="font-size: 50px;"><b> PROJECTS</b>  </p>
+        <h2> PROJECTS</h2>  
     </div>
 
     <!-- Making flexbox where I add image and side by side add text and create two buttons -->
     <div class="flexBox_project" style="text-align: center;">
         <div class="text">
-        <h1  >E-Voting System</h1>
+        <h3 >E-Voting System</h3>
         <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde inventore iusto laborum saepe! Voluptas excepturi repellendus ad corrupti animi quaerat libero officiis nemo dolorem mollitia perspiciatis cumque deleniti, quibusdam neque.
             <!-- Electronic voting technology intends to speed the counting of ballots, reduce the cost of paying staff to count votes manually and can provide improved accessibility for disabled voters. Also in the long term, expenses are expected to decrease.[6] Results can be reported and published faster.[7] Voters save time and cost by being able to vote independently from their location. This may increase overall voter turnout. The citizen groups benefiting most from electronic elections are the ones living abroad, citizens living in rural areas far away from polling stations and the disabled with mobility impairments. -->
         </p>
+        <div class="flexBox">
         <button class="live_button" type="button" ><b>See Live</b></button>
         <button  class="live_button" type="button" ><b>Source Code</b></button>
-
+       </div>
         </div>
         <!-- Here I add picture -->
         <div class="image">
@@ -65,14 +66,16 @@
     </div>
 
 <!-- Making another flexbox where I again add pic and project details -->
-     <div style="margin-top:1cm" class="flexBox">
+     <div style="margin-top:1cm" class="flexBox_project">
         <div class="text">
-        <h1 >MVC Inventory</h1>
+        <h3 >MVC Inventory</h3>
         <p style="max-width: 10cm;">
             Model–view–controller (MVC) is a software design pattern[1] commonly used for developing user interfaces that divides the related program logic into three interconnected elements. This is done to separate internal representations of information from the ways information is presented to and accepted from the user.
             Traditionally used for desktop graphical user interfaces (GUIs), this pattern became popular for designing web applications.[4] Popular programming languages have MVC frameworks that facilitate the implementation of the pattern.        </p>
+            <div class="flexBox">
             <button class="live_button" type="button" ><b>See Live</b></button>
             <button  class="live_button" type="button" ><b>Source Code</b></button>
+             </div>
         </div>
         <div class="image">
         <img class="project_image" src="portfolio2.jpg" alt="MVC project">
@@ -82,11 +85,13 @@
      <!--Again third time add pic and give project details -->
      <div style="margin-top:1cm" class="flexBox">
         <div class="text">
-        <h1 >FilmWare Movie</h1>
+        <h3 >FilmWare Movie</h3>
         <p style="max-width: 10cm;">
             Filmware International was founded by professionals from entertainment and telecom industries. The focus of the company is releasing good quality art-house and independent movies theatrically in Taiwan. We have been using iFilm as our theatrical release brand name to represent our distribution efforts and build up audiences’ recognition of our good-quality movies.    </p>
+            <div class="flexBox">
             <button class="live_button" type="button" ><b>See Live</b></button>
             <button  class="live_button" type="button" ><b>Source Code</b></button>
+        </div>
         </div>
         <div class="image">
         <img class="project_image" src="movie.jpg" alt="Filmware">
@@ -96,7 +101,7 @@
     <!-- Making another div where I add section of Contact and create "ADD SECTION" button -->
     <div class="about_contact" >
         <div class="contact_text" ><br>
-            <h1>CONTACT</h1>
+            <h2>CONTACT</h2>
             <p style="margin-top: 2cm;">
             {put your call to action here}   
         </p>
@@ -130,6 +135,6 @@
 
    
 
-
+<script src="index.js"></script>
 </body>
 </html>
